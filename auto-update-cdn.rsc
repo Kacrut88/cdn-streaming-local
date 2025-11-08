@@ -7,7 +7,7 @@
 
 :log info "⏳ Memulai update CDN Streaming list..."
 
-:local url "https://raw.githubusercontent.com/budihermawan/cdn-streaming-local/main/cdn-streaming-local.rsc"
+:local url "https://raw.githubusercontent.com/Kacrut88/cdn-streaming-local/refs/heads/main/cdn-streaming-local.rsc"
 :local dst "cdn-streaming-local.rsc"
 
 # Hapus file lama jika ada
@@ -23,3 +23,4 @@
 /import file-name=$dst
 
 :log info "✅ CDN Streaming list berhasil diperbarui!"
+
